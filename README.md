@@ -4,7 +4,7 @@
 
 ## Authors
 
-[Martin Thuo](www.twitter.com/mertoenjosh)
+[Martin Thuo](https://www.twitter.com/mertoenjosh)
 
 Lavender Otieno
 
