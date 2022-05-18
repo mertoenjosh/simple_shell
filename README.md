@@ -6,7 +6,7 @@
 
 [Martin Thuo](https://www.twitter.com/mertoenjosh)
 
-Lavender Otieno
+[Lavender Otieno](lavenderproductdesign@gmail.com)
 
 ### Objectives
 Explain:
@@ -25,3 +25,29 @@ Explain:
 - How to suspend the execution of a process until one of its children terminates
 - What is EOF / “end-of-file”?
 
+COMPILATION
+This shell is compiled using:
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+
+The Shell Name:SHELL
+
+X-METRO has both interactive mode and non-interactive mode. 
+
+....................................................................................
+....................................................................................
+
+FEATURES
+-Displays a prompt and waits for the user to type a command. A command line always ends with a new line.
+-The prompt is displayed again each time a command has been executed.
+-The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.
+-The command lines are made only of one word. No arguments will be passed to programs.
+-If an executable cannot be found, prints an error message and display the prompt again.
+-Handles errors.
+-Handles the “end of file” condition (Ctrl+D)
+-Handles command lines with arguments
+-Handles the PATH
+-Implements the exit built-in, that exits the shell
+-Implements the env built-in, that prints the current environment
+-Write your own getline function
+-Uses a buffer to read many chars at once and call the least possible the read system call
+-etc as seen in the files
