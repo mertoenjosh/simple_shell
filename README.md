@@ -2,11 +2,12 @@
 
 ![gates of hell](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/235/shell.jpeg)
 
+---
 - This is a simple UNIX command interpreter written in C programming language.
 
 ## Authors
 
-[Martin Thuo](https://www.twitter.com/mertoenjosh)
+<a href="https://www.twitter.com/mertoenjosh" target="_blank" alt="Martin Thuo">Martin Thuo</a>
 
 [Lavender Otieno](lavenderproductdesign@gmail.com)
 
@@ -28,23 +29,27 @@ Explain:
 - What is EOF / “end-of-file”?
 
 ## COMPILATION
-- Execute `build.sh` script to compile the code. You need to have GCC installed.
+- Execute `build.sh` script (on a UNIX machine) to compile the code. You need to have GCC installed.
+```bash
+./build.sh
+```
 - The shell is compiled with GCC with the following command.
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o shell
 ```
 
 ## Implementations
-[x] The shell displays a prompt and waits for the user to type a command. A command line always ends with a new line.
-[x] The prompt is displayed again each time a command has been executed.
-[x] The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.
-[x] The command lines are made only of one word. No arguments will be passed to programs.
-[x] If an executable cannot be found, prints an error message and display the prompt again.
-[x] Handles errors.
-[x] Handles the “end of file” condition (Ctrl+D)
-[x] Handles command lines with arguments.
-[x] Handles the PATH.
-[x] Implements the exit built-in, that exits the shell.
-[x] Implements the env built-in, that prints the current environment.
-[ ] Implement the built-in `alias`.
-[ ] Implement the built-in `history`.
+- [x] The code is **betty** compliance.
+- [x] The shell displays a prompt and waits for the user to type a command. A command line always ends with a new line.
+- [x] The prompt is displayed again each time a command has been executed.
+- [x] The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.
+- [x] The command lines are made only of one word. No arguments will be passed to programs.
+- [x] If an executable cannot be found, prints an error message and display the prompt again.
+- [x] Handles errors.
+- [x] Handles the “end of file” condition (Ctrl+D)
+- [x] Handles command lines with arguments.
+- [x] Handles the PATH.
+- [x] Implements the exit built-in, that exits the shell.
+- [x] Implements the *env* built-in, that prints the current environment.
+- [ ] Implement the built-in *alias*.
+- [ ] Implement the built-in *history*.
