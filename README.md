@@ -10,7 +10,7 @@
 <a href="https://www.twitter.com/mertoenjosh" target="_blank" alt="Martin Thuo">Martin Thuo</a>
 
 <a href="mailto:lavenderproductdesign@gmail.com">Lavender Otieno</a>
-  
+
 ### Objectives of the task
 Explain:
 - Who designed and implemented the original Unix operating system
