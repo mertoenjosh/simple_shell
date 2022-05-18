@@ -1,4 +1,6 @@
-# C - Simple Shell
+<h1 align="center"> C - Simple Shell </h1>
+
+![gates of hell](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/235/shell.jpeg)
 
 - A simple UNIX command interpreter.
 
