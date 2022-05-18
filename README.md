@@ -29,7 +29,7 @@ COMPILATION
 This shell is compiled using:
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
-The Shell Name: X-METRO
+The Shell Name:SHELL
 
 X-METRO has both interactive mode and non-interactive mode. 
 
